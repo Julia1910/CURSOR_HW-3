@@ -47,8 +47,8 @@ public class Fractional {
         return (integer == fractional.getInteger()) && (fraction == fractional.getFraction());
     }
 
-    public void showFraction() {
-        System.out.println(integer + "." + fraction);
+    public String getFractional() {
+        return integer + "." + fraction;
     }
 
 }

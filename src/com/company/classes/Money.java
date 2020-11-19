@@ -9,8 +9,8 @@ public class Money {
         kopeck = (byte) ((insert - uah) * 100);
     }
 
-    public void showMoney() {
-        System.out.println(uah + "," + kopeck);
+    public String getMoney() {
+        return uah + "," + kopeck;
     }
 
     public long getUah() {
