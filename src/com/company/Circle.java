@@ -17,6 +17,6 @@ public class Circle {
     }
 
     public double getSquare() {
-        return Math.PI*radius*radius;
+        return Math.PI * radius * radius;
     }
 }
